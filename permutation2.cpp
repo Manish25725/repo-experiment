@@ -12,7 +12,7 @@ void permutation(string& str,int idx){
         swap(str[idx],str[i]);
         permutation(str,idx+1);
         swap(str[idx],str[i]);
-        swap(str[idx],str[i]);
+        cout<<true;
     }
 }
 
